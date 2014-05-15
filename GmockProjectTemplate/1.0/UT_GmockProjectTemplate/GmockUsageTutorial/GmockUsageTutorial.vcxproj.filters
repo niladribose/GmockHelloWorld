@@ -32,4 +32,9 @@
       <UniqueIdentifier>{95412140-11d5-4f03-9dac-67b3d09c3564}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ILogger.h">
+      <Filter>UnitUnderTest\ShoppingCart</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
