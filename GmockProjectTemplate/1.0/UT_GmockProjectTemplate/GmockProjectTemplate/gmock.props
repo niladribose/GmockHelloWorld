@@ -5,10 +5,10 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\..\CommonLibs\UnitTest\gmock\1.7.0\gmock-1.7.0-bin\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\gmock-1.7.0-bin\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>..\..\..\..\..\CommonLibs\UnitTest\gmock\1.7.0\gmock-1.7.0-bin\lib\2010\$(ConfigurationName)\</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\..\gmock-1.7.0-bin\lib\2010\$(ConfigurationName)\</AdditionalLibraryDirectories>
       <AdditionalDependencies>gmock.lib;gmock_main.lib</AdditionalDependencies>
       <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
     </Link>
